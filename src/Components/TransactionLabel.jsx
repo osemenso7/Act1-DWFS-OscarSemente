@@ -1,4 +1,4 @@
-import "../styles/TransactionLabel.css";
+import "../tyles/TransactionLabel.css";
 
 const TransactionLabel = ({ title }) => {
     return(
