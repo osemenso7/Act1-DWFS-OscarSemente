@@ -9,7 +9,7 @@ import Footer from "./Components/Footer.jsx";
 import useTimer from "./Hooks/UseTimer.jsx";
 
 function AppContent() {
-    const { loading } = useTimer(1000);
+    const { loading } = useTimer(5000);
 
     return (
         <div className="App">
