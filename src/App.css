@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+}
+
+.waitTimer {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.waitTimer__spinner {
+  margin: 10px;
+}
+
+.waitTimer__text {
+  margin-bottom: 10px;
+}
