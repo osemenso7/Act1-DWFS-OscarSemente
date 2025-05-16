@@ -5,7 +5,7 @@ import {GlobalContext} from "../Context/GlobalContext.jsx";
 import TransactionLabel from "../Components/TransactionLabel.jsx";
 import BookCart from "../Components/BookCart.jsx";
 
-import "../styles/Transaction.css";
+import "../Styles/Transaction.css";
 
 const Transaction = () => {
     const { buyBooks, totalPrice, handleSetSelectedBook, handleSetShowCart } = useContext(GlobalContext);
