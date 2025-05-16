@@ -1,5 +1,5 @@
 import { Routes, Route } from 'react-router-dom';
-import { GlobalProvider} from './context/GlobalContext';
+import { GlobalProvider} from './Context/GlobalContext';
 
 import Header from './Components/Header.jsx';
 import BookSelector from './Views/BookSelector.jsx';
