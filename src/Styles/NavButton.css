@@ -1,0 +1,19 @@
+.navButton {
+    border: none;
+    background: none;
+    margin: 0 20px;
+    padding: 5px;
+}
+
+.navButton:active {
+    border: 1px solid black;
+}
+
+.navButton:hover {
+    background-color: #de7f00;
+}
+
+.navButton__text{
+    font-size: 19px;
+    margin: 0 10px;
+}

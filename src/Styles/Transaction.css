@@ -1,0 +1,79 @@
+.transaction {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: #fcdb97;
+}
+
+.transaction__form {
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+    padding: 30px 30px;
+    margin: 30px;
+    width: 40%;
+}
+
+.form__line, .list__line {
+    border: 1px solid black;
+    max-width: 100%;
+    margin: 12px 0;
+
+}
+
+.form__pay {
+    margin-top: 20px;
+}
+
+.form__paisCPostal, .form__dateCvv {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.form__paisCPostal > div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.paisCPostal__pais {
+    margin-right: 10px;
+}
+
+.form__dateCvv > div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.dateCvv__year, .dateCvv__month {
+    margin-right: 5px;
+}
+
+.link__buyBtn {
+    background-color: #f19b24;
+    font-weight: bold;
+    margin-top: 15px;
+    width: 100%;
+}
+
+.link__buyBtn:hover {
+    background-color: #de7f00;
+}
+
+.transaction__list {
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+    padding: 30px 30px;
+    margin: 30px;
+    max-width: 25%;
+}
+
+.list__title {
+    text-align: center;
+}
+
+.list__totalPrice {
+    margin: 5px 15px 5px auto;
+}

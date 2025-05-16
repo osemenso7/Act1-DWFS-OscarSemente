@@ -1,0 +1,18 @@
+.searchBar__select {
+    width: 20%;
+    height: auto;
+    text-align: center;
+}
+
+.searchBar__select:focus {
+    outline: none;
+}
+
+.searchBar__input {
+    width: 80%;
+    height: auto;
+}
+
+.searchBar__input:focus {
+    outline: none;
+}

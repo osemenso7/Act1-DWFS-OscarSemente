@@ -1,0 +1,81 @@
+.books__book {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: honeydew;
+    border: 1px solid black;
+    width: 230px;
+    margin: 10px 10px;
+    padding: 12px 12px;
+}
+
+.books__book > * {
+    padding: 0 0;
+}
+
+.book__image {
+    max-width: 100%;
+    max-height: 300px;
+}
+
+.book__line {
+    border: 1px solid black;
+    max-width: 100%;
+    margin: 12px 0;
+}
+
+.book_description{
+    max-width: 100%;
+}
+
+.book_description p{
+    margin: 0 0;
+}
+
+.description__titleLink {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+}
+
+.description__titleLink:hover {
+    text-decoration: underline;
+}
+
+.description__authorPrice {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+}
+
+.authorPrice__price {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.description__scoreAddBtn {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+}
+
+.scoreAddBtn__score {
+    display: flex;
+}
+
+.score__score {
+    font-weight: bold;
+    font-size: 18px;
+    padding-right: 8px;
+}
+
+.scoreAddBtn__addBtn {
+    background-color: #f19b24;
+    font-weight: bold;
+}
+
+.scoreAddBtn__addBtn:hover {
+    background-color: #de7f00;
+}

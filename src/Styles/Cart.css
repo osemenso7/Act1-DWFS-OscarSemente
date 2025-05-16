@@ -1,0 +1,32 @@
+.bookSelector__cart {
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+    margin: 30px 30px 30px auto;
+    padding: 20px;
+    max-width: 22%;
+}
+
+.cart__title {
+    text-align: center;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+.cart__empty {
+    text-align: center;
+}
+
+.cart__totalPrice {
+    margin: 5px 15px 5px auto;
+}
+
+.cart__button {
+    background-color: #f19b24;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.cart__button:hover {
+    background-color: #de7f00;
+}

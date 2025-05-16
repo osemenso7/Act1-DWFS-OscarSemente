@@ -1,0 +1,20 @@
+.filter__checkbox {
+    margin-top: 5px;
+}
+
+.checkbox__checkbox {
+    transform: scale(1.1);
+}
+
+.checkbox__text {
+    padding-left: 10px;
+}
+
+.price_range {
+    display: flex;
+    flex-direction: column;
+}
+
+.price_range input{
+    width: 50%;
+}

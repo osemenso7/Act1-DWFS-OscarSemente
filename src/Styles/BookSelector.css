@@ -1,0 +1,17 @@
+.bookSelector {
+    display: flex;
+    align-items: flex-start;
+    background-color: #fcdb97;
+    padding-left: 30px;
+}
+
+.bookSelector__books {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    max-width: 70%;
+    background-color: antiquewhite;
+    margin: 30px 30px;
+    padding: 18px 25px;
+}

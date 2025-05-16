@@ -1,0 +1,55 @@
+.booksDetail {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: #fcdb97;
+    padding: 30px 0;
+}
+
+.booksDetail__bookDetail {
+    display: flex;
+    background-color: antiquewhite;
+    width: 1000px;
+    padding: 20px 20px;
+    margin: 30px auto;
+}
+
+.bookDetail__image {
+    width: 40%;
+}
+
+.bookDetail__description {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+.description__info{
+    margin-bottom: 20px;
+}
+
+.description__synopsis {
+    text-align: justify;
+    margin-top: 5%;
+}
+
+.description__scorePrice {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    margin-top: auto;
+    margin-bottom: 20px;
+}
+
+.scorePrice__score {
+    display: flex;
+}
+
+.description__addBtn {
+    background-color: #f19b24;
+    font-weight: bold;
+}
+
+.description__addBtn:hover {
+    background-color: #de7f00;
+}
