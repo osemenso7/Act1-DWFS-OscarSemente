@@ -7,8 +7,10 @@ const Filter = ({ filterName, filterList}) => {
     const { handleSetSelectedGenre } = useContext(FilterContext);
 
     const handleFilterChange = (e) => {
-        const { value, checked } = e.target;
-        handleSetSelectedGenre(value, checked);
+        if (filterName === "Género") {
+            const { value, checked } = e.target;
+            handleSetSelectedGenre(value, checked);
+        }
     };
 
     return (
@@ -17,8 +19,8 @@ const Filter = ({ filterName, filterList}) => {
             {filterName !== "Price" ? (
                 filterList.map((filterItem, index) => (
                     <div className="filter__checkbox" key={index}>
-                        <input className="checkbox__checkbox" type="checkbox" id={`filter-${index}`} value={filterItem} onChange={handleFilterChange}/>
-                        <label className="checkbox__text" htmlFor={`filter-${index}`}>{filterItem}</label>
+                        <input className="checkbox__checkbox" type="checkbox" id={`${filterName}-filter-${index}`} value={filterItem} onChange={handleFilterChange}/>
+                        <label className="checkbox__text" htmlFor={`${filterName}-filter-${index}`}>{filterItem}</label>
                     </div>
                 ))
             ) : (

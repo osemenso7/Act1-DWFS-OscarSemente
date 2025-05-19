@@ -1,11 +1,11 @@
 import {useParams} from "react-router";
 import {useContext} from "react";
-
 import {GlobalContext} from "../Context/GlobalContext.jsx";
+
 import Icon from "../Components/Icon.jsx";
+import Cart from "../Components/Cart.jsx";
 
 import '../Styles/BookDetail.css';
-import Cart from "../Components/Cart.jsx";
 
 const BookDetail = () => {
     const { bookId } = useParams();
